@@ -1,0 +1,76 @@
+
+.header{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    justify-items: center;
+}
+
+.form{
+  height:360px;  
+}
+
+.put{
+    width: 3500px;
+    position: fixed;
+    bottom: 60px;
+    margin:auto;
+}
+
+.putIn{
+    border:1px solid #edf1f4;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #edf1f4;
+    color: #5a5e61;
+    outline: none;
+    width: 32%;
+}
+.send{
+    background-color: #edf1f4;
+    font-size: 1.6em;
+   color: green;
+    border-radius: 50%;
+    border-color: transparent;
+    padding: 5px 10px;
+}
+
+.qst{
+    float: right;
+    margin-right:10px ;
+    margin-top:10px ;
+    background-color: #18dff1;
+    border-radius: 10px 10px 0px 10px;
+    padding: 10px;
+    color: white;
+}
+.rep{
+    float: left;
+    margin-left:10px ;
+    margin-top:20px ;
+    background-color: #e5f8fc;
+    border-radius: 10px 10px 10px 0px ;
+    padding: 10px;
+    clear: both;
+}
+.go{
+    float: right;
+    background-color:red ;
+    color: white;
+    border-radius: 50%;
+    border-color: transparent;
+    outline: none;
+    padding: 5px 10px ;
+    font-size: 1.5em;
+    bottom: 25px;
+    right: 20px;
+    position: fixed;
+    box-shadow: 1px 1px 2px 1px rgb(161, 159, 159);
+}
+.go,.send:active{
+    transform: translateY(3px);
+}
+ .affiche{
+    display: block;
+}
